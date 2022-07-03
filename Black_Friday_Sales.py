@@ -33,4 +33,4 @@ svc.fit(x_train,y_train)
 
 y_pred = svc.predict(x_test)
 
-print(Mean_Squared Error(y_test,y_pred))
+print(mean_squared_error(y_test,y_pred))
